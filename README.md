@@ -1,4 +1,4 @@
-# About App
+# About The Pizza App
 The Pizza is a user-friendly e-commerce application designed to provide a seamless experience for ordering delicious food items. Whether you're craving pizza, appetizers, pasta, salads, or beverages, this app has you covered. 
 
 Tech Stack : Java,Retrofit,Okhttp,LiveData,MVVM Pattern,XML
@@ -15,7 +15,7 @@ Tech Stack : Java,Retrofit,Okhttp,LiveData,MVVM Pattern,XML
   <tr>
     <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/ece7cb004ace5ecd4e308d4e239244b8972821f2/appetizer_screenshot.png"/></td>
     <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/09e3348fae19e63020db163f66c74a54b77bd61e/pasta_screenshot.png"/></td>
-   <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/09e3348fae19e63020db163f66c74a54b77bd61e/salad_sceenshot.png"/></td>
+   <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/3f60406b81a83acedb1e479794a1807e49089018/salad_screenshot.png"/></td>
      <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/09e3348fae19e63020db163f66c74a54b77bd61e/beverage_sceenshot.png"/></td>
   </tr>
     <tr>
