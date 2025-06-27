@@ -22,6 +22,6 @@ Tech Stack : Java,Retrofit,Okhttp,LiveData,MVVM Pattern,XML
     <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/ece7cb004ace5ecd4e308d4e239244b8972821f2/outlet_screenshot.png"/></td>
     <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/69eb34805bc3b11c526d82d6c23e7f898451334c/cart_sceenshot.png"/></td>
    <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/09e3348fae19e63020db163f66c74a54b77bd61e/place_order_sceenshot.png"/></td>
-     <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/69eb34805bc3b11c526d82d6c23e7f898451334c/order_sceenshot.png"/></td>
+     <td><img src="https://github.com/ChayanLeang/The-Pizza/blob/b39f434b4870f8ca87b1ff86f5fa89220780d755/order_screenshot.png"/></td>
   </tr>
 </table>
