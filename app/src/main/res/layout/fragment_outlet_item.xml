@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@color/white"
+    android:background="@drawable/bg_radius_5"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        app:cardCornerRadius="5dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/outletIV"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/text"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textSize="18sp"
+        android:layout_width="0dp"
+        android:text="@string/text"
+        android:id="@+id/outletNameTV"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:fontFamily="@font/comfortaa_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cv"
+        app:layout_constraintStart_toEndOf="@id/cv"/>
+
+    <TextView
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textSize="17sp"
+        android:layout_width="0dp"
+        android:text="@string/text"
+        android:id="@+id/addressTV"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/grey"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa_bold"
+        app:layout_constraintEnd_toEndOf="@id/outletNameTV"
+        app:layout_constraintTop_toBottomOf="@id/outletNameTV"
+        app:layout_constraintStart_toStartOf="@id/outletNameTV"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

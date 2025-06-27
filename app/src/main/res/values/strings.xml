@@ -1,0 +1,45 @@
+<resources>
+    <string name="text">Text</string>
+    <string name="today_hint">Today</string>
+    <string name="pcs_format">%d pcs</string>
+    <string name="app_name">The Pizza</string>
+    <string name="one_string_format">$%s</string>
+    <string name="in_30_minute">In 30 minute</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="date"><font color="#FF000000">Date</font></string>
+    <string name="time"><font color="#FF000000">Time</font></string>
+    <string name="home"><font color="#FF000000">Home</font></string>
+    <string name="puff"><font color="#FF000000">Puff</font></string>
+    <string name="order"><font color="#FFFFFFFF">Order</font></string>
+    <string name="pizza"><font color="#FF000000">Pizza</font></string>
+    <string name="salad"><font color="#FF000000">Salad</font></string>
+    <string name="pasta"><font color="#FF000000">Pasta</font></string>
+    <string name="share"><font color="#FFFFFFFF">Share</font></string>
+    <string name="close"><font color="#FFFFFFFF">Close</font></string>
+    <string name="total"><font color="#FFFFFFFF">Total: </font></string>
+    <string name="outlet"><font color="#FFFFFFFF">Outlet</font></string>
+    <string name="sign_in"><font color="#FFFFFFFF">Sign In</font></string>
+    <string name="my_cart"><font color="#FFFFFFFF">My Cart</font></string>
+    <string name="comment"><font color="#FF000000">Comment</font></string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="write_your_comment_here">Write your comment here</string>
+    <string name="beverage"><font color="#FF000000">Beverage</font></string>
+    <string name="appetizer"><font color="#FF000000">Appetizer</font></string>
+    <string name="the_pizza"><font color="#FFFFFFFF">The Pizza</font></string>
+    <string name="clear_all"><font color="#FFFFFFFF">Clear All</font></string>
+    <string name="view_order"><font color="#FFFFFFFF">View Order</font></string>
+    <string name="place_order"><font color="#FFFFFFFF">Place Order</font></string>
+    <string name="version"><font color="#FFFFFFFF">Version 1.10.10</font></string>
+    <string name="phone_number"><font color="#FF000000">Phone Number</font></string>
+    <string name="address_required"><font color="#FF000000">Address *</font></string>
+    <string name="password_required"><font color="#FF000000">Password *</font></string>
+    <string name="nothing_to_show"><font color="#A9A9A9">Nothing to show</font></string>
+    <string name="user_name_required"><font color="#FF000000">User Name *</font></string>
+    <string name="your_cart_is_empty"><font color="#A9A9A9">Your cart is empty</font></string>
+    <string name="phone_number_required"><font color="#FF000000">Phone Number *</font></string>
+    <string name="allow_us_to_prepare_money_for_change">Allow us to prepare money for change</string>
+    <string name="how_much_money_will_you_pay"><font color="#FF000000">How much money will you pay?</font></string>
+    <string name="your_order_is_successfully_sent"><font color="#A9A9A9">Your order is successfully sent.</font></string>
+</resources>

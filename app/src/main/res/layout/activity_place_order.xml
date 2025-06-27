@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@color/smoke"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".presentation.ui.activity.PlaceOrderActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/abl"
+        android:paddingTop="25dp"
+        android:background="@color/green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/mtb"
+            app:title="Place Order"
+            android:paddingTop="5dp"
+            app:titleCentered="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextAppearance="@style/customToolbar"
+            app:navigationIcon="@drawable/ic_arrow_back_24" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/abl"
+        app:layout_constraintBottom_toTopOf="@id/totalLL">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingVertical="25dp"
+            android:paddingHorizontal="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/bg_radius_5">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address_required"
+                    android:fontFamily="@font/comfortaa_bold"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="16sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:id="@+id/addressTIET"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:hint="@string/enter_your_address"
+                    android:fontFamily="@font/comfortaa_bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/bg_radius_5">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="16sp"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:background="@null"
+                    android:id="@+id/dateTIET"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:hint="@string/today_hint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/comfortaa_bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/bg_radius_5">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:text="@string/how_much_money_will_you_pay"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="16sp"
+                    android:background="@null"
+                    android:id="@+id/moneyTIET"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:inputType="numberDecimal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:hint="@string/allow_us_to_prepare_money_for_change"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/bg_radius_5">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="16sp"
+                    android:inputType="phone"
+                    android:background="@null"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:id="@+id/phoneNumberTIET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:hint="@string/enter_your_phone_number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/bg_radius_5">
+
+                <TextView
+                    android:textSize="18sp"
+                    android:text="@string/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa_bold"/>
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:textSize="16sp"
+                    android:inputType="text"
+                    android:background="@null"
+                    android:id="@+id/commentTIET"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:hint="@string/write_your_comment_here"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/totalLL"
+        android:paddingVertical="13dp"
+        android:paddingHorizontal="5dp"
+        android:background="@color/red"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:textSize="15sp"
+            android:text="@string/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_bold"/>
+
+        <TextView
+            android:textSize="17sp"
+            android:id="@+id/totalTV"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/one_string_format"
+            android:fontFamily="@font/comfortaa_medium"/>
+
+        <TextView
+            android:alpha="0.5"
+            android:textSize="17sp"
+            android:enabled="false"
+            android:id="@+id/orderTV"
+            android:text="@string/order"
+            android:layout_marginEnd="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_bold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
